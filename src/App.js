@@ -13,12 +13,14 @@ import {
   Activity,
   Calendar,
 } from "lucide-react";
+import * as Images from "./assets";
 
 const avulsionData = [
   {
     id: 1,
     title: "Qué es avulsión",
     icon: <BookOpen className="h-6 w-6 text-white" />,
+    images: [Images.img1],
     content:
       "La avulsión dental es una condición traumática en la que un diente se desprende completamente de su alvéolo, el hueso que lo sostiene en la mandíbula o maxilar. Este tipo de lesión se considera una emergencia odontológica que requiere atención inmediata para aumentar las posibilidades de conservar el diente.",
     subitems: [],
@@ -27,6 +29,7 @@ const avulsionData = [
     id: 2,
     title: "Incidencia y prevalencia",
     icon: <List className="h-6 w-6 text-white" />,
+    images: [Images.img2, Images.img22],
     content:
       "La avulsión de los dientes permanentes se observa entre el 0.5 y el 16% de todas las lesiones dentales y en la dentición primaria, la avulsión representa entre el 7% y el 13% de todas las lesiones dentales traumáticas. La mayor incidencia de la avulsión dental se evidencia entre los 7 y los 12 años, considerándose como el tipo de lesión dental más común en menores de 15 años debido a la poca resistencia que ofrece el hueso alveolar ante fuerzas extrusivas.",
     subitems: [],
@@ -40,6 +43,7 @@ const avulsionData = [
       {
         id: "3.1",
         title: "Diagnóstico",
+        images: [Images.img3, Images.img4, Images.img5, Images.img6],
         content:
           "Se debe examinar con cuidado el paciente ya que hay otro tipo de lesiones asociadas, como fractura de la pared alveolar y lesiones en tejidos blandos. \n\nDurante el examen clínico se debe valorar: \n\n* Condiciones periodontales \n* Integridad del diente avulsionado \n* Contraindicaciones ortodónticas (Ej: apiñamiento) \n* Grado de desarrollo radicular \n\nEl examen clínico se puede complementar con el examen radiográfico, sin embargo, la radiografía no es fundamental, y por ella no se debe posponer la reimplantación inmediata del diente.",
       },
@@ -55,6 +59,7 @@ const avulsionData = [
     id: 4,
     title: "Tiempo extraoral",
     icon: <Clock className="h-6 w-6 text-white" />,
+    images: [Images.img7],
     content:
       "El factor más importante para asegurar resultados favorables después de la reimplantación de la pieza es la velocidad con la que el diente es reimplantado. El objetivo principal es prevenir la deshidratación del diente, lo cual altera el metabolismo fisiológico y la morfología de las células del ligamento periodontal. Por tanto, debe realizarse el mayor esfuerzo para reimplantar el diente dentro de los primeros 15-20 minutos. \n\nSi la raíz del diente se conserva en un medio seco, aproximadamente el 50% de las células del ligamento periodontal mueren después de 30 minutos; y transcurridos 60 minutos casi ninguna célula se encuentra viva.",
     subitems: [],
@@ -74,6 +79,7 @@ const avulsionData = [
       {
         id: "5.2",
         title: "Saliva",
+        images: [Images.img8],
         content:
           "Por su alta carga bacteriana no es muy idónea, además de que su hipo tonicidad disminuye la supervivencia celular. No obstante, los estudios demuestran que, si el diente se pone en el vestíbulo bucal, los fibroblastos pueden mantenerse vitales alrededor de dos horas.",
       },
@@ -86,6 +92,7 @@ const avulsionData = [
       {
         id: "5.4",
         title: "Agua",
+        images: [Images.img9],
         content:
           "Es el medio de transporte menos adecuado, pues al ser hipotónica desencadena lisis celular; adicionalmente, produce un efecto similar a las de un medio de almacenamiento seco, por lo que el almacenamiento en agua más de veinte minutos provoca grandes reabsorciones radiculares.",
       },
@@ -177,6 +184,7 @@ const avulsionData = [
     id: 7,
     title: "Ferulización",
     icon: <Scissors className="h-6 w-6 text-white" />,
+    images: [Images.img10],
     content:
       "La evidencia actual recomienda que los dientes reimplantados se estabilicen mediante ferulizaciones pasivas, flexibles y de corta duración, ya que se ha demostrado que permitir cierto grado de movilidad fisiológica durante la cicatrización estimula una mejor curación periodontal y pulpar, además de disminuir la incidencia de anquilosis. Para este propósito, se aconseja utilizar un alambre de acero inoxidable con un diámetro máximo de 0.016'' (0.4 mm) o hilo de pescar de nylon de 0.13 a 0.25 mm, adherido a los dientes adyacentes mediante resina compuesta, ácido grabador y adhesivo. Esta férula debe colocarse sobre las superficies vestibulares para evitar interferencias oclusales y permitir acceso lingual o palatino para tratamiento endodóntico. Además, facilita una buena higiene oral y es bien tolerada por los pacientes.\n\nEl periodo ideal de ferulización es de 7 a 14 días, dependiendo de la longitud radicular y grado de maduración del diente reimplantado. Se debe evitar que la férula genere movimientos ortodónticos o dañe los tejidos gingivales. Una semana suele ser suficiente para estabilizar el diente y favorecer el soporte periodontal; sin embargo, si persiste movilidad o existe riesgo de trauma por los dientes antagonistas, se puede prolongar una semana adicional, previa valoración de la oclusión tras retirar la férula.\n\nLa excepción a este protocolo ocurre en los casos en que la avulsión se asocia a fracturas alveolares o maxilares, donde se indica una ferulización más rígida, mantenida por un periodo de cuatro semanas. Tras la colocación de cualquier tipo de férula, es imprescindible realizar un control radiográfico para verificar la correcta posición del diente y disponer de una referencia preoperatoria para el seguimiento. Finalmente, es fundamental mantener los materiales adhesivos alejados de los márgenes gingivales e interproximales para evitar la retención de placa y posibles infecciones, y advertir tanto al paciente como a sus padres que el diente lesionado puede presentar movilidad transitoria tras la retirada de la férula.",
     subitems: [],
@@ -185,6 +193,7 @@ const avulsionData = [
     id: 8,
     title: "Manejo analgésico y antibiótico",
     icon: <Thermometer className="h-6 w-6 text-white" />,
+    images: [Images.img11],
     content:
       "El uso de antibióticos sistémicos tras una avulsión y reimplante dental está ampliamente recomendado para prevenir infecciones locales y reducir el riesgo de reabsorción radicular inflamatoria. Esta cobertura antimicrobiana resulta especialmente importante en pacientes con condiciones médicas predisponentes o lesiones concomitantes que incrementen el riesgo de infección. La instauración de terapia antibiótica sistémica debe realizarse en el momento de la reimplantación y antes del tratamiento endodóntico, ya que su eficacia se ha asociado a la prevención de la invasión bacteriana en la pulpa necrótica y la subsiguiente reabsorción inflamatoria.\n\nLa amoxicilina y la penicilina continúan siendo los fármacos de primera elección por su efectividad frente a la flora oral y su baja incidencia de efectos secundarios. En pacientes alérgicos a la penicilina se deberán considerar antibióticos alternativos. La doxiciclina, en particular, ha demostrado beneficios adicionales por sus propiedades antimicrobianas, antiinflamatorias y antireabsortivas, ya que disminuye la movilidad de los osteoclastos y la actividad de las colagenasas, contribuyendo a reducir la reabsorción radicular. No obstante, antes de su administración en pacientes pediátricos debe valorarse el riesgo de pigmentación dental, ya que el uso de tetraciclinas, incluida la doxiciclina, no se recomienda en menores de 12 años.\n\nAdemás de la terapia antibiótica, es fundamental evaluar y cubrir las necesidades analgésicas del paciente mediante antiinflamatorios no esteroideos (AINEs), ajustando la dosis según la edad y peso corporal. Se debe remitir al médico tratante para la aplicación de la vacuna antitetánica en las primeras 48 horas tras el trauma, especialmente si existió contaminación de la herida o del diente. Durante la fase de cicatrización, es indispensable controlar la carga bacteriana del surco gingival mediante el uso de enjuagues con clorhexidina durante un periodo de 7 a 10 días, complementado con una adecuada higiene oral.",
     subitems: [],
@@ -204,6 +213,7 @@ const avulsionData = [
       {
         id: "9.2",
         title: "Ápice abierto",
+        images: [Images.img12],
         content:
           "En dientes reimplantados con ápices abiertos existe la posibilidad de revascularización del espacio pulpar, por lo que se debe evitar el tratamiento endodóntico inicial y monitorear estrechamente la evolución clínica y radiográfica en controles periódicos cada 3 a 4 semanas.\n\nEl objetivo es favorecer el restablecimiento del flujo sanguíneo y permitir la continuación del desarrollo radicular. Sin embargo, debido a la amplitud de los túbulos dentinales en estos casos, la infección pulpar puede provocar una rápida reabsorción radicular inflamatoria externa, especialmente en niños, por lo que al primer signo clínico o radiográfico de necrosis o infección se debe instaurar inmediatamente el tratamiento endodóntico correspondiente, ya sea mediante apexificación, apicoformación o revascularización del espacio pulpar. En aquellos casos donde se prevea anquilosis y futura necesidad de decoronación, debe seleccionarse cuidadosamente el material intraconducto y su tiempo de permanencia. Adicionalmente, se ha sugerido que la aplicación tópica de minociclina en el ápice radicular previa a la reimplantación podría favorecer la revascularización al reducir la carga bacteriana local.",
       },
@@ -231,6 +241,7 @@ const avulsionData = [
       {
         id: "10.3",
         title: "Reabsorción inflamatoria",
+        images: [Images.img13],
         content:
           "La reabsorción radicular inflamatoria ocurre como respuesta a una pulpa necrótica infectada y al daño del ligamento periodontal tras una avulsión, favorecida en jóvenes por la amplitud de los túbulos dentinales.\n\nSu tratamiento consiste en realizar endodoncia, dejando hidróxido de calcio por al menos 21 días hasta controlar la reabsorción, tras lo cual el defecto se repara con cemento o hueso. Radiográficamente se manifiesta como pérdida de sustancia dental y una zona radiolúcida persistente en el hueso alveolar.",
       },
@@ -241,6 +252,7 @@ const avulsionData = [
   {
     id: 11,
     title: "Seguimiento",
+    images: [Images.img14],
     icon: <Calendar className="h-6 w-6 text-white" />,
     content:
       "Las evaluaciones de seguimiento deben realizarse a los tres y seis meses, y posteriormente de forma anual durante cinco años. Ante la detección de reemplazo óseo, será necesario reconsiderar el plan de tratamiento. En caso de reabsorción radicular inflamatoria, se puede intentar detener el proceso mediante un retratamiento endodóntico convencional para desinfectar nuevamente el conducto radicular. Además, es fundamental monitorear los dientes adyacentes al avulsionado, ya que pueden desarrollar alteraciones patológicas incluso tiempo después del trauma; sus hallazgos deben compararse con los registros obtenidos en la consulta inicial.",
@@ -290,6 +302,19 @@ const App = () => {
               <ChevronRight className="h-5 w-5 text-blue-500" />
             ))}
         </div>
+        {Array.isArray(subitem.images) && subitem.images.length > 0 && (
+          <div className="flex flex-wrap justify-center gap-3 mb-4">
+            {subitem.images.map((src, idx) => (
+              <img
+                key={idx}
+                src={src}
+                alt={`${subitem.title} ${idx + 1}`}
+                className="w-40 md:w-48 h-auto rounded-md shadow-sm"
+                loading="lazy"
+              />
+            ))}
+          </div>
+        )}
 
         {/* Content */}
         {(expandedItems[subitem.id] || !subitem.subitems?.length) && (
@@ -340,6 +365,20 @@ const App = () => {
               {selectedItemData.id}. {selectedItemData.title}
             </h2>
 
+            {Array.isArray(selectedItemData.images) &&
+              selectedItemData.images.length > 0 && (
+                <div className="flex flex-wrap justify-center gap-4 mb-6">
+                  {selectedItemData.images.map((src, idx) => (
+                    <img
+                      key={idx}
+                      src={src}
+                      alt={`${selectedItemData.title} ${idx + 1}`}
+                      className="w-56 md:w-64 h-auto rounded-md shadow-sm"
+                      loading="lazy"
+                    />
+                  ))}
+                </div>
+              )}
             {selectedItemData.content && (
               <div className="mb-6 text-gray-700">
                 {selectedItemData.content
