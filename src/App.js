@@ -134,7 +134,7 @@ const avulsionData = [
         id: "6.1",
         title: "Ápice Cerrado",
         content: "",
-        images: [Images.img16],
+        images: [Images.img18],
         imagePosition: "top",
         subitems: [
           {
