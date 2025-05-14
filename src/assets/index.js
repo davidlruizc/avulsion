@@ -15,3 +15,5 @@ export { default as img13 } from "./13.jpg";
 export { default as img14 } from "./14.jpg";
 export { default as img15 } from "./15.jpg";
 export { default as img16 } from "./16.jpg";
+export { default as img17 } from "./17.jpeg";
+export { default as img18 } from "./18.jpeg";
